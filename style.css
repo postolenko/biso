@@ -1167,51 +1167,6 @@ textarea:focus {
     color: #F7BA07;  
 }
 
-.text_wrapp {
-
-}
-
-.text_wrapp p {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 140%;
-    color: #000;
-}
-
-.form_wrapp {
-
-}
-
-.input_wrapp {
-
-}
-
-.input_wrapp input {
-    display: block;
-    width: 100%;
-    height: 56px;
-    padding: 0 20px;
-    background: #FFF;
-    border: 1px solid #E0E0E0;
-    font-family: "Niveau Grotesk";
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 55px;
-    color: #7E7E7E;
-}
-
-.submit_wrapp {
-
-}
-
-.dark_pill {
-
-}
-
-.checkbox_wrapp {
-
-}
-
 .checkbox {
     display: inline-block;
     vertical-align: top;
