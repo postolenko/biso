@@ -868,7 +868,9 @@ textarea:focus {
 }
 
 .promo_slider_wrapp {
+    height: 310px;
     position: relative;
+    overflow: hidden;
 }
 
 .promo_slider {
