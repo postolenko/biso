@@ -1013,7 +1013,7 @@ textarea:focus {
 }
 
 .h2_wrapp h2 {
-
+    /*text-transform: uppercase;*/
 }
 
 .thumbnails_1 {
@@ -1758,6 +1758,188 @@ textarea:focus {
 }
 
 /*-- /Section 1 - Interesting Page --*/
+
+/*-- Section 1 - BISO_Integral_CX Page --*/
+
+.article_2_2 {
+
+}
+
+.article_2_2 .inner {
+
+}
+
+.article_2_2 .inner h1 {
+    text-transform: none;
+}
+
+.article_2_2 .inner h3 {
+    text-transform: uppercase;
+}
+
+/*-- /Section 1 - BISO_Integral_CX Page --*/
+
+/*-- Section 2 - BISO_Integral_CX Page --*/
+
+.two_cols_3 {
+    display: flex;
+    display: -webkit-flex;
+    margin: 28px 0 65px 0;
+}
+
+.two_cols_3 > .left {
+    width: 30%;
+    padding: 9px 15px;
+}
+
+.two_cols_3 > .right {
+    width: 70%;
+}
+
+.two_cols_3 > .left p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    color: #05111A;
+}
+
+.line_list {
+
+}
+
+.line_list li {
+    padding: 9px 15px 11px 15px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    color: #05111A; 
+}
+
+.line_list li:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+.line_list li:last-child {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/*-- /Section 2 - BISO_Integral_CX Page --*/
+
+/*-- Section 3 - BISO_Integral_CX Page --*/
+
+.table_1_wrapp {
+    margin-bottom: 19px;
+}
+
+.table_1 {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_1 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.table_1 .table_cell:nth-child(1) {
+    width: calc(100% - 630px);
+    padding: 0 10px 0 15px;
+}
+
+.table_1 .table_cell:nth-child(2) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_cell:nth-child(3) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_cell:nth-child(4) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_cell:nth-child(5) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_cell:nth-child(6) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_cell:nth-child(7) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_cell:nth-child(8) {
+    width: 126px;
+    padding: 0 10px;
+}
+
+.table_1 .table_row:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.table_1 .table_row:nth-child(1) {
+    background-color: transparent;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_1 .table_row:last-child {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_1 p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    color: #05111A;
+}
+
+.table_1 .table_header p {
+    font-weight: bold;
+}
+
+.table_1_wrapp p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    color: #05111A;
+}
+
+.table_1_footer {
+    padding: 18px 0;
+}
+
+.table_1_footer p {
+
+}
+
+/*-- /Section 3 - BISO_Integral_CX Page --*/
+
+/*-- Section 4 - BISO_Integral_CX Page --*/
+
+.video_wrapp {
+    width: 881px;
+    height: 588px;
+    margin: 34px auto;
+}
+
+.video_wrapp iframe {
+    width: 100%;
+    height: 588px;
+    border: none;
+}
+
+/*-- /Section 4 - BISO_Integral_CX Page --*/
+
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
