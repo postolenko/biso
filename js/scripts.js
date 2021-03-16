@@ -39,4 +39,41 @@ $(document).ready(function() {
         });
     }
 
+
 });
+
+
+if($("#map").length > 0) {
+
+  function initMap() {
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 55.806925, lng: 37.5665672},
+        scrollwheel: false,
+        scaleControl: false,
+        zoom: 17,
+        // styles: styles
+      });
+
+      map.setOptions({disableDefaultUI:true});
+
+      marker = new google.maps.Marker({
+        map: map,
+        draggable: false,
+        animation: google.maps.Animation.DROP,
+        position: {lat: 55.806925, lng: 37.5665672},
+        // icon: image,
+        title: ''
+      });
+
+  }
+
+  function toggleBounce() {
+    if (marker.getAnimation() !== null) {
+      marker.setAnimation(null);
+    } else {
+      marker.setAnimation(google.maps.Animation.BOUNCE);
+    }
+  }
+
+}
