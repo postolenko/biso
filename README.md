@@ -5,3 +5,7 @@
 # http://postolenko.github.io/biso/contacts.html
 # http://postolenko.github.io/biso/interesting.html
 # http://postolenko.github.io/biso/BISO_Integral_CX.html
+# http://postolenko.github.io/biso/BISO_SOJA_FLEX.html
+# http://postolenko.github.io/biso/BISO_3D.html
+# http://postolenko.github.io/biso/BISO_VX_Crop_Ranger_Trendline_Light_Flex.html
+# http://postolenko.github.io/BISO_Sunflower.html

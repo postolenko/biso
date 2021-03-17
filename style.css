@@ -1129,6 +1129,7 @@ textarea:focus {
 .nav li a {
     display: block;
     padding: 16px 17px;
+    letter-spacing: .4px;
     font-weight: normal;
     font-size: 18px;
     line-height: 140%;
@@ -1454,6 +1455,8 @@ textarea:focus {
 
 .article_3 img {
     margin: 10px 0;
+    width: auto;
+    max-width: 100%;
 }
 
 .p_b {
@@ -1939,7 +1942,57 @@ textarea:focus {
 
 /*-- /Section 4 - BISO_Integral_CX Page --*/
 
+/*-- Section 2 - BISO_3D Page --*/
 
+.table_2 {
+    margin-top: 27px;
+}
+
+.table_2 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.table_2 .table_header {
+
+}
+
+.table_2 .table_row:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.table_2 .table_row:nth-child(1) {
+    background-color: transparent;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_2 .table_cell:nth-child(1) {
+    width: calc(100% - 489px);
+    padding: 0 10px 0 15px;
+}
+
+.table_2 .table_cell:nth-child(2) {
+    width: 163px;
+}
+
+.table_2 .table_cell:nth-child(3) {
+    width: 163px;
+}
+
+.table_2 .table_cell:nth-child(4) {
+    width: 163px;
+}
+
+.table_2 .table_header p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 120%;
+    color: #000;
+}
+
+/*-- /Section 2 - BISO_3D Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
