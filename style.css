@@ -1955,10 +1955,6 @@ textarea:focus {
     padding-bottom: 11px;
 }
 
-.table_2 .table_header {
-
-}
-
 .table_2 .table_row:nth-child(odd) {
     background-color: #F2F2F2;
 }
