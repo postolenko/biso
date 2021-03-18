@@ -9,3 +9,6 @@
 # http://postolenko.github.io/biso/BISO_3D.html
 # http://postolenko.github.io/biso/BISO_VX_Crop_Ranger_Trendline_Light_Flex.html
 # http://postolenko.github.io/biso/BISO_Sunflower.html
+# http://postolenko.github.io/biso/BISO_VX_Crop_Ranger_Trendline_Light.html
+# http://postolenko.github.io/biso/BISO_Cornpower.html
+# http://postolenko.github.io/biso/BISO_Sunpower.html

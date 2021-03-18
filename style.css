@@ -1960,6 +1960,10 @@ textarea:focus {
     border-bottom: 1px solid #F2F2F2;
 }
 
+.table_2 .table_row:last-child {
+    border-bottom: 1px solid #F2F2F2;
+}
+
 .table_2 .table_cell:nth-child(1) {
     width: calc(100% - 489px);
     padding: 0 10px 0 15px;
@@ -1985,6 +1989,245 @@ textarea:focus {
 }
 
 /*-- /Section 2 - BISO_3D Page --*/
+
+/*-- Section 2 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+.line_list {
+
+}
+
+.line_list li {
+
+}
+
+.line_list li ul {
+
+}
+
+.line_list li ul li {
+    position: relative;
+    padding: 0 15px 0 15px;
+}
+
+.line_list li ul li:before {
+    display: block;
+    content: "";
+    width: 7px;
+    height: 1px;
+    background-color: #05111A;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+/*-- /Section 2 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+/*-- Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+.table_3 {
+
+}
+
+.table_3 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.table_3 .table_row:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.table_3 .table_row:nth-child(1) {
+    background-color: transparent;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_3 .table_row:last-child {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_3 .table_header p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 120%;
+    color: #000;
+}
+
+.table_3 .table_cell:nth-child(1) {
+    width: calc(100% - 780px);
+    padding: 0 10px 0 15px;
+}
+
+.table_3 .table_cell:nth-child(2) {
+    width: 130px;
+}
+
+.table_3 .table_cell:nth-child(3) {
+    width: 130px;
+}
+
+.table_3 .table_cell:nth-child(4) {
+    width: 130px;
+}
+
+.table_3 .table_cell:nth-child(5) {
+    width: 130px;
+}
+
+.table_3 .table_cell:nth-child(6) {
+    width: 130px;
+}
+
+.table_3 .table_cell:nth-child(7) {
+    width: 130px;
+}
+
+.table_3 p {
+
+}
+
+/*-- /Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+/*-- Section 4 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+.sect_4_BISO_VX_Crop_Ranger_Trendline_Light {
+    padding-top: 43px;
+}
+
+.table_1_footer {
+    margin: 0 -9px;
+}
+
+.table_1_footer > p {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 9px;
+}
+
+/*-- /Section 4 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+/*-- Section 3 - BISO_Cornpower --*/
+
+.table_4 {
+
+}
+
+.table_4 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.table_4 p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    color: #05111A;
+}
+
+.table_4 .table_row:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.table_4 .table_header p {
+    font-weight: bold;
+}
+
+.table_4 .table_row:nth-child(1) {
+    background-color: transparent;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_4 .table_row:last-child {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_4 .table_cell:nth-child(1) {
+    width: calc(100% - 784px);
+    padding: 0 10px 0 15px;
+}
+
+.table_4 .table_cell:nth-child(2) {
+    width: 196px;
+}
+
+.table_4 .table_cell:nth-child(3) {
+    width: 196px;
+}
+
+.table_4 .table_cell:nth-child(4) {
+    width: 196px;
+}
+
+.table_4 .table_cell:nth-child(5) {
+    width: 196px;
+}
+
+.table_4 p {
+
+}
+
+/*-- /Section 3 - BISO_Cornpower --*/
+
+/*-- Section 3 - BISO_Sunpower --*/
+
+.table_5 {
+
+}
+
+.table_5 .table_row {
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.table_5 .table_cell:nth-child(1) {
+    width: calc(100% - 780px);
+    padding: 0 10px 0 15px;
+}
+
+.table_5 .table_cell:nth-child(2) {
+    width: 260px;
+}
+
+.table_5 .table_cell:nth-child(3) {
+    width: 260px;
+}
+
+.table_5 .table_cell:nth-child(4) {
+    width: 260px;
+}
+
+.table_5 p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 120%;
+    color: #05111A;
+}
+
+.table_5 .table_row:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.table_5 .table_header p {
+    font-weight: bold;
+}
+
+.table_5 .table_row:nth-child(1) {
+    background-color: transparent;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.table_5 .table_row:last-child {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/*-- /Section 3 - BISO_Sunpower --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
