@@ -476,62 +476,6 @@ textarea:focus {
 
 /*-- /Slick --*/
 
-/*-- Breadcrumbs --*/
-
-/*.breadcrumbs_wrapp {
-    padding: 40px 0 20px 0;
-}
-
-.breadcrumbs li {
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 5px;
-}
-
-.breadcrumbs li:after {
-    position: relative;
-    top: -2px;
-    left: 5px;
-    content: "\2192";
-    font-size: 13px;
-    line-height: 23px;
-    color: #333333;
-}
-
-.breadcrumbs li:last-child:after {
-    display: none;
-}
-
-.breadcrumbs li a {
-    border-bottom: 1px solid transparent;
-    font-size: 18px;
-    line-height: 23px;
-    color: #333333;
-}
-
-.breadcrumbs li a:link,
-.breadcrumbs li a:visited {
-    border-bottom: 1px solid transparent;
-}
-
-.breadcrumbs li a:active,
-.breadcrumbs li a.active {
-    border-bottom: 1px solid #333333;
-}
-
-.breadcrumbs li a:hover {
-    border-bottom: 1px solid #333333;
-}
-
-.breadcrumbs li:last-child a {
-    pointer-events: none;
-    cursor: default;
-    opacity: .6;
-    border-bottom: 1px solid transparent;
-}*/
-
-/*-- /Breadcrumbs --*/
-
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -781,8 +725,7 @@ textarea:focus {
     background: transparent;
     cursor: pointer;
     position: relative;
-    top: 6px;
-    z-index: 11;
+    z-index: 13;
     border: 1px solid transparent;
 }
 
@@ -858,6 +801,10 @@ textarea:focus {
 
 /* ----- / Responsive Menu Button ------ */
 
+.resp_tel_link {
+    display: none;
+}
+
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
@@ -881,7 +828,8 @@ textarea:focus {
 
 .promo_slider .slide {
     height: 310px;
-    background-position: center;
+    /*background-position: center;*/
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1618,8 +1566,6 @@ textarea:focus {
 }
 
 .orange_link {
-    display: inline-block;
-    vertical-align: top;
     font-size: 16px;
     line-height: 21px;
     color: #FF8933;
@@ -1703,11 +1649,12 @@ textarea:focus {
     padding-bottom: 15px;
 }
 
+.articles_thumbs_wrapp,
 .articles_thumbs {
     margin: 62px 0 89px 0;
 }
 
-.articles_thumbs h3 {
+.articles_thumbs_wrapp h3 {
     font-weight: bold;
     font-size: 24px;
     line-height: 120%;
@@ -1925,7 +1872,7 @@ textarea:focus {
 /*-- Section 4 - BISO_Integral_CX Page --*/
 
 .video_wrapp {
-    width: 881px;
+    max-width: 881px;
     height: 588px;
     margin: 34px auto;
 }
@@ -1940,8 +1887,13 @@ textarea:focus {
 
 /*-- Section 2 - BISO_3D Page --*/
 
+.table_wrapp_scroll {
+    overflow-x: auto;
+}
+
 .table_2 {
     margin-top: 27px;
+    min-width: 600px;
 }
 
 .table_2 .table_row {

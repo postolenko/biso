@@ -1,30 +1,622 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1400px) {
 
+/*-- Section 1 - About Page --*/
 
+.article_2_wrapp .article_info {
+    left: calc( 100% - 30px );
+}
+
+/*-- /Section 1 - About Page --*/
 
 }
 
+@media only screen and (max-width: 1300px) {
+
+/*-- Section 1 - About Page --*/
+
+.article_2_wrapp .article_info {
+    left: auto;
+    right: 0;
+}
+
+/*-- /Section 1 - About Page --*/
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+/*-- Section 2 - Main Page --*/
+
+.two_cols {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.two_cols > .left {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.two_cols > .right {
+    width: 100%;
+    padding: 15px 0;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - BISO_Cornpower --*/
+
+.table_4 .table_cell:nth-child(1) {
+    width: calc(100% - 360px) !important;
+}
+
+.table_4 .table_cell {
+    width: 120px !important;
+}
+
+/*-- /Section 3 - BISO_Cornpower --*/
+
+/*-- Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+.table_3 .table_cell {
+    width: 100px !important;
+}
+
+.table_3 .table_cell:nth-child(1) {
+    width: calc(100% - 600px) !important;
+}
+
+/*-- /Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+/*-- Section 3 - BISO_Sunpower --*/
+
+.table_5 .table_cell {
+    width: 150px !important;
+}
+
+.table_5 .table_cell:nth-child(1) {
+    width: calc(100% - 450px) !important;
+}
+
+/*-- /Section 3 - BISO_Sunpower --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Header --*/
+
+.header_site_row {
+    padding-bottom: 0;
+}
+
+.header_site_row > .center {
+    width: calc(100% - 360px);
+}
+
+.header_site_row > .right {
+    width: 210px
+}
+
+.main_nav {
+    margin-top: 12px;
+}
+
+.main_nav li {
+    padding: 5px 9px;
+}
+
+.callback {
+	min-width: 50px;
+	padding: 10px;
+}
+
+.callback:before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+}
+
+.callback span {
+	display: none;
+}
+
+.inline {
+    margin: 7px -9px 0 -9px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main Page --*/
+
+.thumb_1 {
+    width: calc(50% - 30px);
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumb_2 {
+    width: calc(33.33% - 30px);
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 3 - BISO_Integral_CX Page --*/
+
+.table_1 {
+	min-width: 600px;
+}
+
+.table_1 .table_cell {
+    width: 60px !important;
+}
+
+.table_1 .table_cell:nth-child(1) {
+    width: calc(100% - 420px) !important;
+}
+
+/*-- /Section 3 - BISO_Integral_CX Page --*/
+
+}
 
 @media only screen and (max-width: 900px) {
 
+/*-- Header --*/
 
+.main_nav li a {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+.table_3 {
+	min-width: 720px;
+}
+
+.table_3 .table_cell {
+    width: 80px !important;
+}
+
+.table_3 .table_cell:nth-child(1) {
+    width: calc(100% - 480px) !important;
+}
+
+/*-- /Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
+
+/*-- Section 2 - Contacts Page --*/
+
+.contacts_templ > .left {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contacts_templ > .right {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contacts .dark_pill_2 {
+	width: auto;
+	min-width: 270px;
+}
+
+.map {
+    height: 310px;
+}
+
+/*-- /Section 2 - Contacts Page --*/
 
 }
 
 @media only screen and (max-width: 767px) {
 
+h2 {
+    font-size: 25px;
+}
 
+.wrapper {
+	padding-top: 63px;
+}
+
+/*-- Header --*/
+
+.logo {
+    width: 114px;
+}
+
+.row {
+    padding: 0 15px;
+}
+
+.header_site {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-right: 50px;
+	background-color: #fff;
+	z-index: 10;
+	-webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+	-moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+}
+
+.header_site_row > .center {
+	width: 0;
+	padding: 0;
+}
+
+.header_site_row > .right {
+	width: calc(100% - 150px);
+}
+
+.respmenubtn {
+	display: block;
+}
+
+.header_site .respmenubtn {
+	position: absolute;
+	top: 12px;
+    right: 11px;
+}
+
+#resp_nav {
+	/*display: block;*/
+	display: none;
+	width: 100%;
+	height: 100vh;
+	overflow-y: auto;
+	margin: 0;
+	padding: 90px 10px 50px 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 13;
+	background: #fff;
+}
+
+.main_nav {
+	display: block;
+}
+
+.main_nav li {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.main_nav li a {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.inline {
+    margin: 3px -9px 0 -9px;
+}
+
+.header_site .respmenubtn {
+    top: 13px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo_slider_wrapp {
+    height: 245px;
+}
+
+.promo_slider .slide {
+    height: 245px;
+}
+
+.promo_slider .slide_descript {
+    margin-top: 30px;
+}
+
+.promo_slider .slide_descript h2 {
+    font-size: 23px;
+}
+
+.promo_slider .slide_descript h3 {
+    font-size: 19px;
+}
+
+.yellow_pill {
+    padding: 17px 33px 16px 33px;
+}
+
+.slick-arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.navs {
+    height: 50px;
+    top: -49px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.article > .col:nth-child(odd) {
+    width: 100%;
+}
+
+.article > .col:nth-child(even) {
+	display: none;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumbnails_2 {
+    margin: 25px -15px;
+}
+
+.thumb_2 {
+    width: calc(50% - 30px);
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 1 - About Page --*/
+
+.article_2_wrapp {
+	padding-top: 55px;
+}
+
+.article_2_wrapp .article_info {
+    left: 0;
+    right: auto;
+}
+
+.article_info {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	margin: 0 -10px;
+}
+
+.article_info .inner {
+    padding: 5px 10px;
+}
+
+.article_2 h1 {
+    padding-top: 1px;
+}
+
+/*-- /Section 1 - About Page --*/
+
+/*-- Section 2 - BISO_3D Page --*/
+
+.table_2 .table_cell {
+    width: 100px !important;
+}
+
+.table_2 .table_cell:nth-child(1) {
+    width: calc(100% - 300px) !important;
+}
+
+/*-- /Section 2 - BISO_3D Page --*/
+
+/*-- Section 3 - BISO_Cornpower --*/
+
+.table_4 {
+	min-width: 600px;
+}
+
+.table_4 .table_cell:nth-child(1) {
+    width: calc(100% - 300px) !important;
+}
+
+.table_4 .table_cell {
+    width: 100px !important;
+}
+
+/*-- /Section 3 - BISO_Cornpower --*/
+
+/*-- Section 4 - BISO_Integral_CX Page --*/
+
+.video_wrapp {
+    height: 390px;
+}
+
+.video_wrapp iframe {
+    height: 390px;
+}
+
+/*-- /Section 4 - BISO_Integral_CX Page --*/
+
+/*-- Section 3 - BISO_Sunpower --*/
+
+.table_5 {
+	min-width: 580px;
+}
+
+.table_5 .table_cell {
+    width: 100px !important;
+}
+
+.table_5 .table_cell:nth-child(1) {
+    width: calc(100% - 300px) !important;
+}
+
+/*-- /Section 3 - BISO_Sunpower --*/
+
+/*-- Section 1 - Interesting Page --*/
+
+.articles_thumbs_wrapp {
+    margin: 35px 0;
+}
+
+/*-- /Section 1 - Interesting Page --*/
+
+/*-- Footer --*/
+
+.footer_text {
+    padding: 30px 0;
+}
+
+/*-- /Footer --*/
 
 }
 
 @media only screen and (max-width: 600px) {
 
+/*-- Header --*/
 
+.header_site {
+    padding-right: 35px;
+}
+
+.logo {
+    width: 76px;
+}
+
+.header_site .respmenubtn {
+    right: 0;
+}
+
+.header_site_row > .left {
+    width: 120px;
+    padding: 4px 10px 4px 0;
+}
+
+.header_site_row > .right {
+    width: calc(100% - 120px);
+    padding: 5px 0 4px 10px;
+}
+
+.resp_tel_link {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.hidden_480 {
+	display: none;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - About Page --*/
+
+.article_3 {
+    padding: 21px 0;
+}
+
+/*-- /Section 1 - About Page --*/
+
+/*-- Section 2 - BISO_Cornpower --*/
+
+.two_cols_3 {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+    margin: 10px 0 30px 0;
+}
+
+.two_cols_3 > .left {
+    width: 100%;
+    padding: 9px 0;
+}
+
+.two_cols_3 > .right {
+    width: 100%;
+}
+
+/*-- /Section 2 - BISO_Cornpower --*/
 
 }
 
 
 @media only screen and (max-width: 480px) {
 
-	
+/*-- Section 1 - Main Page --*/
+
+.promo_slider .slide_descript {
+    margin-top: 15px;
+}
+
+.promo_slider .slide_descript h2 {
+    font-size: 18px;
+}
+
+.promo_slider .slide_descript h3 {
+    font-size: 16px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.thumbnails_1 {
+    margin: 16px 0;
+}
+
+.thumb_1 {
+    width: 100%;
+    margin: 15px 0;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumbnails_2 {
+    margin: 25px 0;
+}
+
+.thumb_2 {
+    width: 100%;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 1 - Interesting Page --*/
+
+.articles_thumbs {
+    margin: 30px 0;
+}
+
+.article_thumb {
+	display: block;
+}
+
+.article_thumb > div:nth-child(2) {
+    width: 100%;
+}
+
+.article_thumb h3 {
+    font-size: 21px;
+}
+
+/*-- /Section 1 - Interesting Page --*/
+
+
+/*-- Section 4 - BISO_Integral_CX Page --*/
+
+	.video_wrapp {
+		height: 230px;
+	}
+
+	.video_wrapp iframe {
+	    height: 230px;
+	}
+
+/*-- /Section 4 - BISO_Integral_CX Page --*/
+
 }

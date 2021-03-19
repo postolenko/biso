@@ -7,20 +7,18 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-
+  if($(".table_wrapp_scroll").length > 0) {
+    $(".table_wrapp_scroll").mCustomScrollbar({
+      axis:"x"
+    });
+  }
 
 });
 
 $(window).resize(function() {
-
-
-
 });
 
 $(document).scroll(function() {
-
-
-
 });
 
 $(document).ready(function() {
@@ -38,6 +36,32 @@ $(document).ready(function() {
             appendArrows: $(".navs")
         });
     }
+
+
+  $(".respmenubtn").click(function(e) {
+      e.preventDefault();
+      if( $("#resp_nav").is(":hidden") ) {
+          $("#resp_nav").fadeIn(300);
+          $(this).addClass("active");
+      } else {
+          $("#resp_nav").fadeOut(300);
+          $(this).removeClass("active");
+      }
+    });
+
+    $(".close_nav").click(function(e) {
+      e.preventDefault();
+      $("#resp_nav").fadeOut(300);
+    });
+    
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27 &&
+            $("#resp_nav").is(":visible") &&
+            bodyWidth <= 767) {
+                $("#resp_nav").fadeOut(300);
+                $(".respmenubtn").removeClass("active");
+        }
+    });
 
 
 });
