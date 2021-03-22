@@ -4,71 +4,6 @@
 /*-- Fonts --*/
 /*------------------*/
 
-/*@font-face {
-    font-family: "Niveau Grotesk";
-    src: url("fonts/NiveauGroteskBold.eot");
-    src: url("fonts/NiveauGroteskBold.eot?#iefix") format("embedded-opentype"),
-        url("fonts/NiveauGroteskBold.woff2") format("woff2"),
-        url("fonts/NiveauGroteskBold.woff") format("woff"),
-        url("fonts/NiveauGroteskBold.ttf") format("truetype"),
-        url("fonts/NiveauGroteskBold.svg#NiveauGroteskBold") format("svg");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}*/
-
-/*@font-face {
-    font-family: "Gilroy";
-    src: url("fonts/fonts/Gilroy-Regular.eot");
-    src: url("fonts/fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
-        url("fonts/fonts/Gilroy-Regular.woff2") format("woff2"),
-        url("fonts/fonts/Gilroy-Regular.woff") format("woff"),
-        url("fonts/fonts/Gilroy-Regular.ttf") format("truetype"),
-        url("fonts/fonts/Gilroy-Regular.svg#fonts/Gilroy-Regular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}*/
-
-/*@font-face {
-    font-family: "Niveau Grotesk SC";
-    src: url("fonts/NiveauGroteskRegular-SmallCaps.eot");
-    src: url("fonts/NiveauGroteskRegular-SmallCaps.eot?#iefix") format("embedded-opentype"),
-        url("fonts/NiveauGroteskRegular-SmallCaps.woff2") format("woff2"),
-        url("fonts/NiveauGroteskRegular-SmallCaps.woff") format("woff"),
-        url("fonts/NiveauGroteskRegular-SmallCaps.ttf") format("truetype"),
-        url("fonts/NiveauGroteskRegular-SmallCaps.svg#NiveauGroteskRegular-SmallCaps") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Niveau Grotesk SC";
-    src: url("fonts/NiveauGroteskBold-SmallCaps.eot");
-    src: url("fonts/NiveauGroteskBold-SmallCaps.eot?#iefix") format("embedded-opentype"),
-        url("fonts/NiveauGroteskBold-SmallCaps.woff2") format("woff2"),
-        url("fonts/NiveauGroteskBold-SmallCaps.woff") format("woff"),
-        url("fonts/NiveauGroteskBold-SmallCaps.ttf") format("truetype"),
-        url("fonts/NiveauGroteskBold-SmallCaps.svg#NiveauGroteskBold-SmallCaps") format("svg");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Niveau Grotesk";
-    src: url("fonts/NiveauGroteskRegular.eot");
-    src: url("fonts/NiveauGroteskRegular.eot?#iefix") format("embedded-opentype"),
-        url("fonts/NiveauGroteskRegular.woff2") format("woff2"),
-        url("fonts/NiveauGroteskRegular.woff") format("woff"),
-        url("fonts/NiveauGroteskRegular.ttf") format("truetype"),
-        url("fonts/NiveauGroteskRegular.svg#NiveauGroteskRegular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}*/
-
 @font-face {
     font-family: "Gilroy";
     src: url("fonts/Gilroy-Bold.eot");
@@ -334,22 +269,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -480,10 +399,6 @@ textarea:focus {
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
-.header_site {
-
-}
-
 .header_site_row {
     display: flex;
     display: -webkit-flex;
@@ -520,12 +435,6 @@ textarea:focus {
     width: auto;
     height: auto;
     max-width: 100%;
-}
-
-.main_nav_wrapp {
-    /*display: inline-block;*/
-    /*vertical-align: top;*/
-    /*margin: 13px 5px;*/
 }
 
 .main_nav {
@@ -822,13 +731,8 @@ textarea:focus {
     overflow: hidden;
 }
 
-.promo_slider {
-
-}
-
 .promo_slider .slide {
     height: 310px;
-    /*background-position: center;*/
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -960,10 +864,6 @@ textarea:focus {
     left: -50vw;
 }
 
-.h2_wrapp h2 {
-    /*text-transform: uppercase;*/
-}
-
 .thumbnails_1 {
     display: flex;
     display: -webkit-flex;
@@ -1060,10 +960,6 @@ textarea:focus {
     top: 0;
     right: 100%;
     background: #E8E8E8;
-}
-
-.nav {
-
 }
 
 .nav li {
@@ -1269,10 +1165,6 @@ textarea:focus {
     padding: 1px 0;
 }
 
-.two_cols_2 {
-
-}
-
 .two_cols_2 > .left {
     padding-top: 0;
 }
@@ -1436,10 +1328,6 @@ textarea:focus {
 
 /*-- Section 1 - Support Page --*/
 
-.article_2 .inner {
-
-}
-
 .article_2 .inner h1 {
     font-weight: bold;
     font-size: 24px;
@@ -1461,10 +1349,6 @@ textarea:focus {
 
 .article_3_2 {
     padding-bottom: 0;
-}
-
-.article_3 ul {
-
 }
 
 .article_3 ul li {
@@ -1522,10 +1406,6 @@ textarea:focus {
 .contacts_templ > .right {
     width: calc(100% - 293px);
     padding: 10px 0 10px 15px;
-}
-
-.contacts {
-
 }
 
 .contacts h2 {
@@ -1625,24 +1505,8 @@ textarea:focus {
 
 /*-- Section 1 - Interesting Page --*/
 
-.article_2 {
-
-}
-
 .article_3 p.p_it + h4 {
     padding-top: 10px;
-}
-
-.link_item {
-
-}
-
-.link_item p {
-
-}
-
-.link_item .orange_link {
-
 }
 
 .pb_0 {
@@ -1703,21 +1567,9 @@ textarea:focus {
     text-align: right;
 }
 
-.thumb_footer .orange_link {
-
-}
-
 /*-- /Section 1 - Interesting Page --*/
 
 /*-- Section 1 - BISO_Integral_CX Page --*/
-
-.article_2_2 {
-
-}
-
-.article_2_2 .inner {
-
-}
 
 .article_2_2 .inner h1 {
     text-transform: none;
@@ -1751,10 +1603,6 @@ textarea:focus {
     font-size: 12px;
     line-height: 120%;
     color: #05111A;
-}
-
-.line_list {
-
 }
 
 .line_list li {
@@ -1944,18 +1792,6 @@ textarea:focus {
 
 /*-- Section 2 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
 
-.line_list {
-
-}
-
-.line_list li {
-
-}
-
-.line_list li ul {
-
-}
-
 .line_list li ul li {
     position: relative;
     padding: 0 15px 0 15px;
@@ -1975,10 +1811,6 @@ textarea:focus {
 /*-- /Section 2 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
 
 /*-- Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
-
-.table_3 {
-
-}
 
 .table_3 .table_row {
     display: flex;
@@ -2036,10 +1868,6 @@ textarea:focus {
     width: 130px;
 }
 
-.table_3 p {
-
-}
-
 /*-- /Section 3 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
 
 /*-- Section 4 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
@@ -2061,10 +1889,6 @@ textarea:focus {
 /*-- /Section 4 - BISO_VX_Crop_Ranger_Trendline_Light Page --*/
 
 /*-- Section 3 - BISO_Cornpower --*/
-
-.table_4 {
-
-}
 
 .table_4 .table_row {
     display: flex;
@@ -2118,17 +1942,9 @@ textarea:focus {
     width: 196px;
 }
 
-.table_4 p {
-
-}
-
 /*-- /Section 3 - BISO_Cornpower --*/
 
 /*-- Section 3 - BISO_Sunpower --*/
-
-.table_5 {
-
-}
 
 .table_5 .table_row {
     display: flex;
@@ -2179,7 +1995,6 @@ textarea:focus {
 }
 
 /*-- /Section 3 - BISO_Sunpower --*/
-
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
@@ -2238,10 +2053,6 @@ footer {
 
 .list_1 li:last-child:after {
     display: none;
-}
-
-.list_1 li a {
-
 }
 
 .yellow_link {
@@ -2325,5 +2136,3 @@ footer {
 .dark_link:hover {
     border-bottom: 1px solid #000;
 }
-
-

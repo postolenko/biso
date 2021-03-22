@@ -15,12 +15,6 @@ $(window).load(function() {
 
 });
 
-$(window).resize(function() {
-});
-
-$(document).scroll(function() {
-});
-
 $(document).ready(function() {
 
     if( $(".promo_slider").length > 0 ) {
